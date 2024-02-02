@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "DAC8734SPFB:QFP50P900X900X120-48N"
+		(property "Footprint" "digikey-footprints:TQFP-48_7x7mm"
 			(at -2.54 0 0)
 			(effects
 				(font
@@ -693,24 +693,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 26.67 10.16 180)
-				(length 5.08)
-				(name "VMON"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 26.67 12.7 180)
 				(length 5.08)
@@ -946,24 +928,6 @@
 				)
 			)
 			(pin input line
-				(at -11.43 25.4 270)
-				(length 5.08)
-				(name "AIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "47"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -13.97 25.4 270)
 				(length 5.08)
 				(name "UNI/BIP-B"
@@ -1064,6 +1028,44 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DAC8734SPFB_1_0"
+			(pin no_connect line
+				(at 26.67 10.16 180)
+				(length 5.08)
+				(name "VMON"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -11.43 25.4 270)
+				(length 5.08)
+				(name "AIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "47"
 					(effects
 						(font
 							(size 1.016 1.016)

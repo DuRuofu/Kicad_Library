@@ -765,7 +765,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "P467GS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -791,7 +791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "  通用 放大器 4 电路 16-SOIC"
 			(at 0 0 0)
 			(effects
 				(font
