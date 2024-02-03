@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 1.778 19.558 0)
+			(at 1.016 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,14 +15,14 @@
 			)
 		)
 		(property "Value" "AD637ARZ"
-			(at 0.762 -15.748 0)
+			(at 1.016 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at -1.016 0.254 0)
 			(effects
 				(font
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.analog.com%2Fmedia%2Fen%2Ftechnical-documentation%2Fdata-sheets%2FAD637.pdf"
-			(at -1.016 0.254 0)
+			(at 3.81 -18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "AD637是一款完整的高精度、均方根直流转换器，可计算任何复杂波形的真均方根值。"
-			(at 0 0 0)
+			(at 1.27 -16.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "AD637ARZ_1_1"
 			(rectangle
-				(start -10.668 16.51)
-				(end 11.176 -14.224)
+				(start -10.16 16.51)
+				(end 11.43 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 10.16 0)
+				(at -12.7 11.43 0)
 				(length 2.54)
 				(name "BUFF_IN"
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 -1.27 180)
+				(at 13.97 1.27 180)
 				(length 2.54)
 				(name "RMS_OUT"
 					(effects
@@ -98,7 +98,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 9.398 180)
+				(at 13.97 11.43 180)
 				(length 2.54)
 				(name "-VS"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 13.97 180)
+				(at 13.97 13.97 180)
 				(length 2.54)
 				(name "+VS"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 -11.684 0)
+				(at -12.7 -6.35 0)
 				(length 2.54)
 				(name "NIC"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 13.716 0)
+				(at -12.7 13.97 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 4.064 180)
+				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "BUFF_OUT"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 -5.842 180)
+				(at 13.97 -3.81 180)
 				(length 2.54)
 				(name "CAV"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 -8.89 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "NIC"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 6.858 0)
+				(at -12.7 8.89 0)
 				(length 2.54)
 				(name "COM"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 4.064 0)
+				(at -12.7 6.35 0)
 				(length 2.54)
 				(name "OFFSET"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 1.27 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "CS"
 					(effects
@@ -278,7 +278,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 -2.286 0)
+				(at -12.7 1.27 0)
 				(length 2.54)
 				(name "DEN_INPUT"
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin passive line
-				(at -13.208 -5.842 0)
+				(at -12.7 -1.27 0)
 				(length 2.54)
 				(name "dB_OUTPUT"
 					(effects
@@ -314,7 +314,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 -8.636 180)
+				(at 13.97 -7.62 180)
 				(length 2.54)
 				(name "NIC"
 					(effects
@@ -332,7 +332,7 @@
 				)
 			)
 			(pin passive line
-				(at 13.716 -11.684 180)
+				(at 13.97 -11.43 180)
 				(length 2.54)
 				(name "NIC"
 					(effects

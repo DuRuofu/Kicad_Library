@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.508 19.558 0)
+			(at 3.556 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,14 +15,14 @@
 			)
 		)
 		(property "Value" "ADS8517"
-			(at 3.302 -6.858 0)
+			(at 3.302 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 			(at -0.508 19.558 0)
 			(effects
 				(font
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.ti.com.cn%2Fcn%2Flit%2Fds%2Fsymlink%2Fads8517.pdf%3Fts%3D1704512802540%26ref_url%3Dhttps%25253A%25252F%25252Fwww.ti.com.cn%25252Fproduct%25252Fzh-cn%25252FADS8517%25253FkeyMatch%25253DADS8517%252526tisearch%25253Dsearch-everything%252526usecase%25253DGPN"
-			(at 2.286 -15.748 0)
+			(at 3.048 -9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "(TI)具有 S/P 接口的低功耗 16 位 200kSPS ±10V 双极输入 SAR ADC"
-			(at 0 0 0)
+			(at 3.556 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "ADS8517_1_1"
 			(rectangle
-				(start -6.35 29.972)
-				(end 12.446 -5.588)
+				(start -6.35 31.75)
+				(end 12.7 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,7 +62,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 27.94 0)
+				(at -8.89 30.48 0)
 				(length 2.54)
 				(name "R1IN"
 					(effects
@@ -80,7 +80,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 6.604 0)
+				(at -8.89 7.62 0)
 				(length 2.54)
 				(name "D6"
 					(effects
@@ -98,7 +98,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 4.318 0)
+				(at -8.89 5.08 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -116,7 +116,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 1.524 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -134,7 +134,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -1.27 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -152,7 +152,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 -4.064 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "DGND"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 -4.064 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 -1.27 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 1.524 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -224,7 +224,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 4.318 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "DATACLK"
 					(effects
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 6.604 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "SDATA"
 					(effects
@@ -260,7 +260,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 25.908 0)
+				(at -8.89 27.94 0)
 				(length 2.54)
 				(name "AGND1"
 					(effects
@@ -278,7 +278,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 9.144 180)
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "TAG"
 					(effects
@@ -296,7 +296,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 11.684 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "BYTE"
 					(effects
@@ -314,7 +314,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 14.478 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "R/~{C}"
 					(effects
@@ -332,7 +332,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 17.018 180)
+				(at 15.24 17.78 180)
 				(length 2.54)
 				(name "~{CS}"
 					(effects
@@ -350,7 +350,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 19.304 180)
+				(at 15.24 20.32 180)
 				(length 2.54)
 				(name "~{BUSY}"
 					(effects
@@ -368,7 +368,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 21.59 180)
+				(at 15.24 22.86 180)
 				(length 2.54)
 				(name "PWRD"
 					(effects
@@ -386,7 +386,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 23.876 180)
+				(at 15.24 25.4 180)
 				(length 2.54)
 				(name "REFD"
 					(effects
@@ -404,7 +404,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 25.908 180)
+				(at 15.24 27.94 180)
 				(length 2.54)
 				(name "VANA"
 					(effects
@@ -422,7 +422,7 @@
 				)
 			)
 			(pin passive line
-				(at 14.986 27.94 180)
+				(at 15.24 30.48 180)
 				(length 2.54)
 				(name "VDIG"
 					(effects
@@ -431,7 +431,7 @@
 						)
 					)
 				)
-				(number "27"
+				(number "28"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -440,7 +440,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 23.876 0)
+				(at -8.89 25.4 0)
 				(length 2.54)
 				(name "R2IN"
 					(effects
@@ -458,7 +458,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 21.59 0)
+				(at -8.89 22.86 0)
 				(length 2.54)
 				(name "CAP"
 					(effects
@@ -476,7 +476,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 19.304 0)
+				(at -8.89 20.32 0)
 				(length 2.54)
 				(name "REF"
 					(effects
@@ -494,7 +494,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 17.018 0)
+				(at -8.89 17.78 0)
 				(length 2.54)
 				(name "AGND2"
 					(effects
@@ -512,7 +512,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 14.478 0)
+				(at -8.89 15.24 0)
 				(length 2.54)
 				(name "SB/~{BTC}"
 					(effects
@@ -530,7 +530,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 11.684 0)
+				(at -8.89 12.7 0)
 				(length 2.54)
 				(name "EXT/~{INT}"
 					(effects
@@ -548,7 +548,7 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 9.144 0)
+				(at -8.89 10.16 0)
 				(length 2.54)
 				(name "D7"
 					(effects

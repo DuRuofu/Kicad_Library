@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm"
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -765,7 +765,7 @@
 				)
 			)
 		)
-		(property "Value" "P467GS"
+		(property "Value" "OP467GS"
 			(at 0 0 0)
 			(effects
 				(font
@@ -773,7 +773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 0 0 0)
 			(effects
 				(font
@@ -848,8 +848,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -6.858 90)
-				(length 4.572)
+				(at 2.54 -7.62 90)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -902,8 +902,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 6.858 270)
-				(length 4.572)
+				(at 2.54 7.62 270)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -942,7 +942,7 @@
 				)
 			)
 			(pin input line
-				(at -6.096 -2.286 0)
+				(at -6.35 -2.032 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -960,7 +960,7 @@
 				)
 			)
 			(pin input line
-				(at -6.096 2.794 0)
+				(at -6.35 3.048 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -978,7 +978,7 @@
 				)
 			)
 			(pin output line
-				(at 7.874 0.254 180)
+				(at 7.62 0.508 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1018,7 +1018,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 0.254 180)
+				(at 8.89 0.508 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1036,7 +1036,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 2.794 0)
+				(at -5.08 3.048 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -1054,7 +1054,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -2.286 0)
+				(at -5.08 -2.032 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -1094,7 +1094,7 @@
 				)
 			)
 			(pin input line
-				(at -5.334 -2.032 0)
+				(at -5.08 -1.524 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -1112,7 +1112,7 @@
 				)
 			)
 			(pin input line
-				(at -5.334 3.048 0)
+				(at -5.08 3.556 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -1130,7 +1130,7 @@
 				)
 			)
 			(pin output line
-				(at 8.636 0.508 180)
+				(at 8.89 1.016 180)
 				(length 2.54)
 				(name ""
 					(effects
