@@ -191,7 +191,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm"
 			(at 3.81 -25.146 0)
 			(effects
 				(font
@@ -225,6 +225,26 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(symbol "SGM3209_1_0"
+			(pin no_connect line
+				(at -5.08 -10.16 90)
+				(length 5.08) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
 			)
 		)
 		(symbol "SGM3209_1_1"

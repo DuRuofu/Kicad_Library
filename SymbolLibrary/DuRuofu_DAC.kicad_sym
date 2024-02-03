@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "digikey-footprints:TQFP-48_7x7mm"
+		(property "Footprint" "TQFP-48_7x7mm_P0.5mm"
 			(at -2.54 0 0)
 			(effects
 				(font
@@ -333,7 +333,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -6.35 -24.13 90)
 				(length 5.08)
 				(name "RFB2-0"
@@ -351,7 +351,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 -24.13 90)
 				(length 5.08)
 				(name "RFB1-0"
@@ -441,7 +441,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 -24.13 90)
 				(length 5.08)
 				(name "RFB1-1"
@@ -459,7 +459,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 8.89 -24.13 90)
 				(length 5.08)
 				(name "RFB2-1"
@@ -765,7 +765,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 8.89 25.4 270)
 				(length 5.08)
 				(name "RFB2-3"
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 6.35 25.4 270)
 				(length 5.08)
 				(name "RFB1-3"
@@ -873,7 +873,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -3.81 25.4 270)
 				(length 5.08)
 				(name "RFB1-2"
@@ -891,7 +891,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -6.35 25.4 270)
 				(length 5.08)
 				(name "RFB2-2"

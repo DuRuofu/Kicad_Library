@@ -978,7 +978,7 @@
 			)
 		)
 		(symbol "ADR3425ARJZ-R7_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -16.51 2.54 0)
 				(length 2.54)
 				(name "GND_FORCE"
@@ -996,7 +996,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -16.51 0 0)
 				(length 2.54)
 				(name "GND_SENSE"
@@ -1014,7 +1014,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -16.51 -2.54 0)
 				(length 2.54)
 				(name "ENABLE"
@@ -1032,7 +1032,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 17.78 -2.54 180)
 				(length 2.54)
 				(name "VIN"
@@ -1050,7 +1050,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 17.78 0 180)
 				(length 2.54)
 				(name "VOUT_SENSE"
@@ -1068,7 +1068,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 17.78 2.54 180)
 				(length 2.54)
 				(name "VOUT_FORCE"

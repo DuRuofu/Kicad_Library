@@ -125,16 +125,6 @@
 		(uuid "651a735f-b1a6-421a-b15c-e73b03248481")
 	)
 	(fp_line
-		(start 4.3 -4.5)
-		(end -4.3 -4.5)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f78bf029-e907-4428-b53a-981cd964b9ec")
-	)
-	(fp_line
 		(start -4.3 -12)
 		(end -4.3 4.3)
 		(stroke
@@ -173,6 +163,16 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "8e55aaa6-b4fd-4442-8a46-c13fb1e5541c")
+	)
+	(fp_line
+		(start -4.3 -4.5)
+		(end 4.3 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "353addb7-ef72-4b9f-9728-953e168ac2ce")
 	)
 	(fp_line
 		(start -3.5 -3.5)
