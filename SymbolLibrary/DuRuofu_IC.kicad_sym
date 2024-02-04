@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at -1.016 0.254 0)
+			(at 0.762 -20.066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,6 +72,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "CAV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -173,24 +191,6 @@
 				(at 13.97 3.81 180)
 				(length 2.54)
 				(name "BUFF_OUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 -3.81 180)
-				(length 2.54)
-				(name "CAV"
 					(effects
 						(font
 							(size 1.27 1.27)
