@@ -353,7 +353,7 @@
 			)
 		)
 		(property "Footprint" "Package_LCC:PLCC-20"
-			(at 0 0 0)
+			(at 1.016 -32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,7 +371,7 @@
 			)
 		)
 		(property "Description" "四通道差分比较器"
-			(at 0 0 0)
+			(at 0 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -381,8 +381,8 @@
 		)
 		(symbol "LM139FK_1_1"
 			(rectangle
-				(start -13.208 23.114)
-				(end 13.208 -23.368)
+				(start -12.7 22.86)
+				(end 12.7 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -392,7 +392,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 -11.43 0)
+				(at -15.24 -11.43 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -410,7 +410,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 16.256 0)
+				(at -15.24 16.51 0)
 				(length 2.54)
 				(name "IN1+"
 					(effects
@@ -428,7 +428,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 -15.24 180)
+				(at 15.24 -13.97 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -446,7 +446,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 4.572 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "IN3-"
 					(effects
@@ -464,7 +464,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 1.27 0)
+				(at -15.24 1.27 0)
 				(length 2.54)
 				(name "IN3+"
 					(effects
@@ -482,7 +482,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 -2.794 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "IN4-"
 					(effects
@@ -500,7 +500,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 -17.272 180)
+				(at 15.24 -16.51 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -518,7 +518,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 -6.096 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "IN4+"
 					(effects
@@ -536,7 +536,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 -19.304 180)
+				(at 15.24 -19.05 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -554,7 +554,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 -19.812 0)
+				(at -15.24 -19.05 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -572,7 +572,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 -5.08 180)
+				(at 15.24 -3.81 180)
 				(length 2.54)
 				(name "OUT4"
 					(effects
@@ -590,7 +590,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 11.938 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -608,7 +608,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 1.27 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "OUT3"
 					(effects
@@ -626,7 +626,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 6.096 180)
+				(at 15.24 7.62 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -644,7 +644,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 19.812 180)
+				(at 15.24 19.05 180)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -662,7 +662,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 -14.224 0)
+				(at -15.24 -15.24 0)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -680,7 +680,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 12.446 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "IN2-"
 					(effects
@@ -698,7 +698,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.748 -12.954 180)
+				(at 15.24 -11.43 180)
 				(length 2.54)
 				(name "NC"
 					(effects
@@ -716,7 +716,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 9.144 0)
+				(at -15.24 8.89 0)
 				(length 2.54)
 				(name "IN2+"
 					(effects
@@ -734,7 +734,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.748 19.558 0)
+				(at -15.24 20.32 0)
 				(length 2.54)
 				(name "IN1-"
 					(effects
@@ -774,7 +774,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
-			(at 0 0 0)
+			(at 0 -6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +792,7 @@
 			)
 		)
 		(property "Description" "  通用 放大器 4 电路 16-SOIC"
-			(at 0 0 0)
+			(at -0.254 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,7 +959,7 @@
 		(symbol "OP467GS_2_1"
 			(polyline
 				(pts
-					(xy -3.556 0.254) (xy -3.556 5.334) (xy 5.334 0.254) (xy -3.556 -4.826) (xy -3.556 0.254) (xy -3.556 0.254)
+					(xy -3.81 0) (xy -3.81 5.08) (xy 5.08 0) (xy -3.81 -5.08) (xy -3.81 0) (xy -3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -978,7 +978,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 -2.032 0)
+				(at -6.35 -2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -996,7 +996,7 @@
 				)
 			)
 			(pin input line
-				(at -6.35 3.048 0)
+				(at -6.35 2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -1014,7 +1014,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 0.508 180)
+				(at 7.62 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1035,7 +1035,7 @@
 		(symbol "OP467GS_3_1"
 			(polyline
 				(pts
-					(xy -2.54 0.254) (xy -2.54 5.334) (xy 6.35 0.254) (xy -2.54 -4.826) (xy -2.54 0.254) (xy -2.54 0.254)
+					(xy -2.54 0) (xy -2.54 5.08) (xy 6.35 0) (xy -2.54 -5.08) (xy -2.54 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1054,7 +1054,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 0.508 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -1072,7 +1072,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 3.048 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -1090,7 +1090,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -2.032 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -1111,7 +1111,7 @@
 		(symbol "OP467GS_4_1"
 			(polyline
 				(pts
-					(xy -2.794 0.508) (xy -2.794 5.588) (xy 6.096 0.508) (xy -2.794 -4.572) (xy -2.794 0.508) (xy -2.794 0.508)
+					(xy -2.54 0) (xy -2.54 5.08) (xy 6.35 0) (xy -2.54 -5.08) (xy -2.54 0) (xy -2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -1130,7 +1130,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -1.524 0)
+				(at -5.08 -2.54 0)
 				(length 2.54)
 				(name "+"
 					(effects
@@ -1148,7 +1148,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 3.556 0)
+				(at -5.08 2.54 0)
 				(length 2.54)
 				(name "-"
 					(effects
@@ -1166,7 +1166,7 @@
 				)
 			)
 			(pin output line
-				(at 8.89 1.016 180)
+				(at 8.89 0 180)
 				(length 2.54)
 				(name ""
 					(effects
