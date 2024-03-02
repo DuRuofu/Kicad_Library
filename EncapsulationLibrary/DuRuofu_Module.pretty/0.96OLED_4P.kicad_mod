@@ -279,4 +279,15 @@
 		(remove_unused_layers no)
 		(uuid "79ecbbec-1513-4c78-8d95-4a214cf0be78")
 	)
+	(model "${D_3DMODEL}/0.96OLED.step"
+		(offset
+			(xyz 40 22.5 -4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

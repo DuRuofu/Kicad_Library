@@ -661,4 +661,15 @@
 		(remove_unused_layers no)
 		(uuid "840978be-7c9f-43c1-b6f4-0837126f1692")
 	)
+	(model "${D_3DMODEL}/THB001P_Rocker.step"
+		(offset
+			(xyz 56 71.5 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
