@@ -1,4 +1,4 @@
-(footprint "SW_Push_1P1T_NO_6x6mm_H9.5mm"
+(footprint "SW_Push_1P1T_NO_6x6mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_Push_1P1T_NO_6x6mm_H9.5mm"
+	(property "Value" "SW_Push_1P1T_NO_6x6mm"
 		(at 0 4.15 0)
 		(layer "F.Fab")
 		(uuid "eeb86a43-f4c8-46f1-92a9-461c1a683322")
@@ -270,9 +270,9 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9b1d7e77-d06e-47b3-9f83-98d745df92c0")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_PUSH_6mm_H9.5mm.wrl"
+	(model "${D_3DMODEL}/SW_Push_1P1T_NO_6x6mm.step"
 		(offset
-			(xyz -3 2 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
