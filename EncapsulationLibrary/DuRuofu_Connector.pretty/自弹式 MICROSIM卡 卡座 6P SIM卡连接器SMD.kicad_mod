@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "050a53ea-103b-4296-9b38-8b4559fbb160")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "246a85f7-c79e-402a-a045-6aa5a9a62919")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +57,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "1041ae8f-6fc9-4f06-978e-1e76c678a014")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -659,15 +659,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "eed53a63-0de2-4481-b977-cdffd6f354ea")
 	)
-	(model "${MY_3DMODEL}/MEM2075-00-140-01-A--3DModel-STEP-56544.STEP"
+	(model "${D_3DMODEL}/SIM-SMD_SMC-202-6.step"
 		(offset
-			(xyz -0.5 -4.5 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 180 -180)
+			(xyz 0 0 0)
 		)
 	)
 )
