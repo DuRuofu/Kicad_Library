@@ -49,6 +49,19 @@ Kicad_Library/
   │     ├── EXT_Switch_SMD.3dshapes       # 贴片式开关、继电器、按钮3D模型
   │     ├── EXT_Modules.3dshapes          # 模块3D模型（屏幕、无线模块、传感器等）
   │     ├── EXT_Other.3dshapes            # 其他3D模型（晶振、散热片、继电器等）
+  │
+  ├── Blocks/                       # 电路复用模块库
+  │     ├── PowerModules.kicad_blocks                  # 电源模块
+  │     ├── MCUCoreModules.kicad_blocks               # MCU 核心模块
+  │     ├── CommunicationModules.kicad_blocks          # 通信模块
+  │     ├── SensorModules.kicad_blocks                 # 传感器模块
+  │     ├── DisplayModules.kicad_blocks                # 显示模块
+  │     ├── ActuatorModules.kicad_blocks               # 执行器模块
+  │     ├── InterfaceModules.kicad_blocks              # 接口转换模块
+  │     ├── ProtectionModules.kicad_blocks             # 保护电路模块
+  │     ├── AudioModules.kicad_blocks                  # 音频模块
+  │     ├── OtherModules.kicad_blocks                  # 其他模块
+
 ```
 
 ## 使用方法
