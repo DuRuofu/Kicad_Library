@@ -1,5 +1,266 @@
-(kicad_sch (version 20241209) (generator "eeschema") (generator_version "9.0")
-  (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+(kicad_sch
+	(version 20241209)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "15ae7a0d-a53d-4804-b6bf-a747840a1ecc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 88.9 27.94)
+		(size 58.42 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3832a12f-0f09-4acc-a4b7-71e7f57553a3")
+		(property "Sheetname" "EXT_Other"
+			(at 88.9 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_Other.kicad_sch"
+			(at 88.9 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 27.94)
+		(size 54.61 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "580d79ab-0767-4e48-865a-215fd5c8ce7b")
+		(property "Sheetname" "EXT_Connectors"
+			(at 151.13 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_Connectors.kicad_sch"
+			(at 151.13 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 27.94)
+		(size 57.15 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "755572cc-ca71-4ab4-b7c6-a11102641ac4")
+		(property "Sheetname" "EXT_Passive"
+			(at 25.4 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_Passive.kicad_sch"
+			(at 25.4 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 27.94)
+		(size 58.42 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c4262aa-b448-4bef-a6bf-9d88d3bd0d6e")
+		(property "Sheetname" "EXT_Modules"
+			(at 214.63 27.2284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_Modules.kicad_sch"
+			(at 214.63 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 90.17)
+		(size 57.15 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "98a921d8-302d-4536-aa24-9db96f404d32")
+		(property "Sheetname" "EXT_ICs"
+			(at 24.13 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_ICs.kicad_sch"
+			(at 24.13 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 90.17)
+		(size 58.42 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f29c734e-aa56-454c-b180-722885d553d3")
+		(property "Sheetname" "EXT_Switch"
+			(at 88.9 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "EXT_Switch.kicad_sch"
+			(at 88.9 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Templates"
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

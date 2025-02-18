@@ -1,4 +1,4 @@
-24578124387828414
+24697209306140479
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57203,6 +57203,489 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+DuRuofu_Connector
+BAT-TH_BS-2-1
+
+
+0
+2
+2
+DuRuofu_Connector
+CONN-TH_2P-P5.00_WJ500V-5.08-2P
+
+
+0
+2
+2
+DuRuofu_Connector
+CONN-TH_2P-P5.08
+
+
+0
+2
+2
+DuRuofu_Connector
+CONN-TH_3P-P5.08
+
+
+0
+3
+3
+DuRuofu_Connector
+CONN-TH_4P-P5.08_KF2EDGRC-5.08-4P
+
+
+0
+4
+4
+DuRuofu_Connector
+CONN-TH_XY2500V-F-3.5-8P
+
+
+0
+8
+8
+DuRuofu_Connector
+DC母座(大)
+Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf
+connector barrel jack
+0
+3
+3
+DuRuofu_Connector
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+DuRuofu_Connector
+SMA_Amphenol_901-143_Horizontal
+ Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682
+SMA THT Female Jack Horizontal
+0
+5
+2
+DuRuofu_Connector
+亚奇连接器-OK-14F024-04
+
+
+0
+24
+24
+DuRuofu_Connector
+自弹式 MICROSD卡(TF卡) 卡座 外焊式
+
+
+0
+13
+13
+DuRuofu_Connector
+自弹式 MICROSIM卡 卡座 6P SIM卡连接器SMD
+
+
+0
+10
+6
+DuRuofu_IC
+ANT-SMD_L3.1-W1.6
+
+
+0
+2
+2
+DuRuofu_IC
+MQ-2
+Gas Sensor, 6 pin, https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf
+gas sensor
+0
+6
+6
+DuRuofu_IC
+Maxim_OLGA-14_3.3x5.6mm_P0.8mm
+https://pdfserv.maximintegrated.com/land_patterns/90-0602.PDF
+OLGA-14 OESIP-14
+0
+14
+14
+DuRuofu_IC
+TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm
+TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
+0
+21
+17
+DuRuofu_IC
+WLCSP-12_1.56x1.56mm_P0.4mm
+WLCSP 12 1.56x1.56 https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMM150-DS001-01.pdf
+BMM150 WLCSP
+0
+12
+12
+DuRuofu_IC
+WSOF-6_L2.6-W1.6-P0.50-TL-EP
+
+
+0
+7
+7
+DuRuofu_L
+L_Wuerth_HCI-1040
+Inductor, Wuerth Elektronik, Wuerth_HCI-1040, 10.2mmx10.2mm
+inductor Wuerth hci smd
+0
+2
+2
+DuRuofu_MCU
+LCC-54_L17.7-W15.8-P1.10_AIR780EX
+
+
+0
+54
+54
+DuRuofu_Module
+0.96OLED_4P
+
+
+0
+4
+4
+DuRuofu_Module
+Buzzer
+14mm Indicator, https://www.puiaudio.com/media/SpecSheet/AI-1440-TWT-24V-2-R.pdf
+piezo buzzer self drive oscillator
+0
+2
+2
+DuRuofu_Module
+COMM-SMD_RA-01S
+
+
+0
+16
+16
+DuRuofu_Module
+GPS-SMD_GP-02
+
+
+0
+18
+18
+DuRuofu_Module
+MPU6050-GY-521
+
+
+0
+8
+8
+DuRuofu_Module
+SW-TH_THB001P
+
+
+0
+14
+14
+DuRuofu_SMD
+SMD-4_4.6x7.62mm_P2.54mm
+https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf
+
+0
+4
+4
+DuRuofu_Switch
+G6K-2F-Y DC5
+欧姆龙信号继电器
+
+0
+8
+8
+DuRuofu_Switch
+HF32F-G-HS
+
+
+0
+4
+4
+DuRuofu_Switch
+KAILH_WS2182B_3528 反贴
+
+
+0
+13
+6
+DuRuofu_Switch
+SW_Push_1P1T_NO_6x6mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+DuRuofu_Switch
+Shaft_Base
+Keyboard universal shaft base(热插拔)
+
+0
+3
+2
+DuRuofu_Switch
+热插拔键盘轴(RGB反贴)
+
+
+0
+10
+8
+DuRuofu_Switch
+热插拔键盘轴(RGB反贴)(24mm)
+
+
+0
+10
+8
+DuRuofu_Switch
+热插拔键盘轴(RGB反贴)(30mm)
+
+
+0
+10
+8
+EXT_Connectors_SMD
+JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal
+JST PH series connector, S2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH horizontal
+0
+4
+3
+EXT_Connectors_SMD
+亚奇连接器-OK-14F024-04
+
+
+0
+24
+24
+EXT_Connectors_SMD
+自弹式micro-SD卡(TF卡)卡座-外焊式
+
+
+0
+13
+13
+EXT_Connectors_SMD
+自弹式micro-SIM卡-卡座-6P-SIM卡连接器SMD
+
+
+0
+10
+6
+EXT_Connectors_THT
+BAT-TH_BS-2-1
+
+
+0
+2
+2
+EXT_Connectors_THT
+CONN-TH_2P-P5.08
+
+
+0
+2
+2
+EXT_Connectors_THT
+CONN-TH_3P-P5.08
+
+
+0
+3
+3
+EXT_Connectors_THT
+CONN-TH_4P-P5.08_KF2EDGRC-5.08-4P
+
+
+0
+4
+4
+EXT_Connectors_THT
+CONN-TH_XY2500V-F-3.5-8P
+
+
+0
+8
+8
+EXT_Connectors_THT
+DC-005
+Wuerth electronics barrel jack connector (5.5mm outher diameter, inner diameter 2.05mm or 2.55mm depending on exact order number), See: http://katalog.we-online.de/em/datasheet/6941xx301002.pdf
+connector barrel jack
+0
+3
+3
+EXT_Connectors_THT
+SMA-KWE
+ Amphenol RF 901-143 https://www.amphenolrf.com/library/download/link/link_id/585682
+SMA THT Female Jack Horizontal
+0
+5
+2
+EXT_IC_SMD
+COMM-SMD_RA-01S
+
+
+0
+16
+16
+EXT_IC_SMD
+EPSOP-8
+8-Lead Plastic PSOP, Exposed Die Pad (see https://www.diodes.com/assets/Datasheets/AP2204.pdf)
+SSOP 0.50 exposed pad
+0
+12
+9
+EXT_IC_SMD
+GPS-SMD_GP-02
+
+
+0
+18
+18
+EXT_IC_SMD
+LCC-54_L17.7-W15.8-P1.10_AIR780EX
+
+
+0
+54
+54
+EXT_IC_SMD
+Maxim_OLGA-14_3.3x5.6mm_P0.8mm
+https://pdfserv.maximintegrated.com/land_patterns/90-0602.PDF
+OLGA-14 OESIP-14
+0
+14
+14
+EXT_IC_SMD
+SMD-4_4.6x7.62mm_P2.54mm
+https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTV-816_826_846.pdf
+
+0
+4
+4
+EXT_IC_SMD
+TQFN-16-1EP_3x3mm_P0.5mm_EP1.23x1.23mm
+TQFN, 16 Pin (https://pdfserv.maximintegrated.com/package_dwgs/21-0136.PDF (T1633-5), https://pdfserv.maximintegrated.com/land_patterns/90-0032.PDF), generated with kicad-footprint-generator ipc_noLead_generator.py
+TQFN NoLead
+0
+21
+17
+EXT_IC_SMD
+WLCSP-12_1.56x1.56mm_P0.4mm
+WLCSP 12 1.56x1.56 https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMM150-DS001-01.pdf
+BMM150 WLCSP
+0
+12
+12
+EXT_IC_SMD
+WSOF-6_L2.6-W1.6-P0.50-TL-EP
+
+
+0
+7
+7
+EXT_Modules
+0.96OLED_4P
+
+
+0
+4
+4
+EXT_Modules
+MPU6050-GY-521
+
+
+0
+8
+8
+EXT_Modules
+MQ-2
+Gas Sensor, 6 pin, https://www.winsen-sensor.com/d/files/semiconductor/mq-6.pdf
+gas sensor
+0
+6
+6
+EXT_Modules
+SW-TH_THB001P
+
+
+0
+14
+14
+EXT_Other
+ANT-SMD_L3.1-W1.6
+
+
+0
+2
+2
+EXT_Other
+Buzzer
+14mm Indicator, https://www.puiaudio.com/media/SpecSheet/AI-1440-TWT-24V-2-R.pdf
+piezo buzzer self drive oscillator
+0
+2
+2
+EXT_Passive_SMD
+L_Wuerth_HCI-1040
+Inductor, Wuerth Elektronik, Wuerth_HCI-1040, 10.2mmx10.2mm
+inductor Wuerth hci smd
+0
+2
+2
+EXT_Switch_SMD
+G6K-2F-Y DC5
+欧姆龙信号继电器
+
+0
+8
+8
+EXT_Switch_THT
+HF32F-G-HS
+
+
+0
+4
+4
+EXT_Switch_THT
+SW_Push_1P1T_NO_6x6mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+EXT_Switch_THT
+热插拔键盘轴(RGB反贴)
+
+
+0
+10
+8
+EXT_Switch_THT
+热插拔键盘轴(RGB反贴)(24mm)
+
+
+0
+10
+8
+EXT_Switch_THT
+热插拔键盘轴(RGB反贴)(30mm)
+
+
+0
+10
+8
+EXT_Switch_THT
+热插拔键盘轴(RGB反贴)(凯华)
+
+
+0
+13
+6
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

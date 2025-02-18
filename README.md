@@ -46,16 +46,6 @@ Kicad_Library/
 
 
 
-参考： [嘉立创EDA封装库命名参考规范.pdf](./Docs/嘉立创EDA封装库命名参考规范.pdf) 
-
-
-
-
-
-
-
-
-
 ## 参考:
 
 1. https://github.com/zhbi98/kicad-libs
