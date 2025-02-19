@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CR2032纽扣电池座子"
 			(at 0.254 5.08 0)
 			(effects
 				(font
@@ -100,31 +100,31 @@
 			)
 			(polyline
 				(pts
-					(xy -1.27 1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -1.27 1.27) (xy -1.27 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0)
@@ -360,7 +360,7 @@
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(arc
@@ -372,7 +372,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -519,7 +519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IPEX天线座子"
 			(at 0 0 0)
 			(effects
 				(font

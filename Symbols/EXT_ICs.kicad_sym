@@ -1074,7 +1074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "BH1750是一种用于两线式串行总线接口的数字型光强度传感器集成电路。"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1246,7 +1246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "温湿度传感器"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1454,7 +1454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "三轴加速度传感器"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1736,7 +1736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "博世BMI160六轴传感器I2C通信"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2050,7 +2050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "晶体管输出光耦"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "高性能 BDS/GNSS 多模卫星导航接收机SOC模块"
 			(at 0 1.27 0)
 			(effects
 				(font
@@ -2926,7 +2926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "心率血氧传感器"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3642,7 +3642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "安信可 LoRa 系列模块"
 			(at -8.636 8.382 0)
 			(effects
 				(font

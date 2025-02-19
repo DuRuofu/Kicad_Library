@@ -5,7 +5,7 @@
 	(uuid "f71290f1-8d63-410d-8ec5-b23e3c391610")
 	(paper "A4")
 	(lib_symbols
-		(symbol "EXT_Connectors:CR2032-2-1"
+		(symbol "EXT_Connectors:CR2032"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DuRuofu_Connector:BAT-TH_BS-2-1"
+			(property "Footprint" "EXT_Connectors_THT:BAT-TH_BS-2-1"
 				(at 0.254 5.08 0)
 				(effects
 					(font
@@ -52,22 +52,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "CR2032-2-1_0_1"
+			(symbol "CR2032_0_1"
 				(polyline
 					(pts
 						(xy -2.54 2.54) (xy -2.54 0) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -91,6 +79,18 @@
 				)
 				(polyline
 					(pts
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy -1.27 2.54) (xy -1.27 2.54)
 					)
 					(stroke
@@ -103,31 +103,31 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0)
@@ -199,7 +199,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
+						(xy 1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
 						(width 0)
@@ -211,7 +211,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -222,7 +222,7 @@
 					)
 				)
 			)
-			(symbol "CR2032-2-1_1_1"
+			(symbol "CR2032_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3306,6 +3306,74 @@
 		)
 	)
 	(symbol
+		(lib_id "EXT_Connectors:CR2032")
+		(at 40.64 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e9009f7-559a-4e95-839a-6259584d5408")
+		(property "Reference" "BAT2"
+			(at 40.005 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR2032"
+			(at 40.005 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXT_Connectors_THT:BAT-TH_BS-2-1"
+			(at 40.894 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.894 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.894 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "711f71ab-6fbe-4f24-bd8e-60e7177cd91f")
+		)
+		(pin "2"
+			(uuid "a1046850-741c-403f-a11b-a9babfff1d3a")
+		)
+		(instances
+			(project ""
+				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc/580d79ab-0767-4e48-865a-215fd5c8ce7b"
+					(reference "BAT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EXT_Connectors:SMA-KWE")
 		(at 210.82 39.37 0)
 		(unit 1)
@@ -3720,74 +3788,6 @@
 			(project ""
 				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc/580d79ab-0767-4e48-865a-215fd5c8ce7b"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EXT_Connectors:CR2032-2-1")
-		(at 46.99 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4303672-ffda-4390-a2e4-6ce3cfccf611")
-		(property "Reference" "BAT1"
-			(at 46.355 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CR2032"
-			(at 46.355 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DuRuofu_Connector:BAT-TH_BS-2-1"
-			(at 47.244 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 47.244 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 47.244 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2051264e-9ad0-4dfd-840f-b46ae782887d")
-		)
-		(pin "1"
-			(uuid "386fdc7c-b169-41c4-b8c5-57c26a74d3b7")
-		)
-		(instances
-			(project ""
-				(path "/15ae7a0d-a53d-4804-b6bf-a747840a1ecc/580d79ab-0767-4e48-865a-215fd5c8ce7b"
-					(reference "BAT1")
 					(unit 1)
 				)
 			)

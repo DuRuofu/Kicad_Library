@@ -3730,10 +3730,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.445) (xy -1.27 2.54) (xy -3.81 2.54)
+						(xy -1.27 4.445) (xy -1.905 5.715) (xy -0.635 5.715) (xy -1.27 4.445)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3742,10 +3742,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 4.445) (xy -1.905 5.715) (xy -0.635 5.715) (xy -1.27 4.445)
+						(xy -1.27 4.445) (xy -1.27 2.54) (xy -3.81 2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill

@@ -786,7 +786,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -21.59) (xy 0 -21.59)
+						(xy 0 -21.59) (xy 0 -20.32)
 					)
 					(stroke
 						(width 0)
@@ -798,7 +798,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -21.59) (xy 0 -20.32)
+						(xy 0 -21.59) (xy 0 -21.59)
 					)
 					(stroke
 						(width 0)
