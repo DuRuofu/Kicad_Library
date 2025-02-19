@@ -1,4 +1,4 @@
-24697209386595807
+24698949458937631
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57616,6 +57616,13 @@ SW-TH_THB001P
 0
 14
 14
+EXT_Modules
+合宙ESP32C3开发板-DIP&SMT
+
+
+0
+32
+32
 EXT_Other
 ANT-SMD_L3.1-W1.6
 
