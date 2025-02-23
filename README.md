@@ -1,4 +1,4 @@
-# 个人自用kicad库
+# 团队共享kicad库
 
 ## 目录结构
 
@@ -68,8 +68,4 @@ Kicad_Library/
 
 1. 克隆本仓库到本地, 或者下载zip文件解压到本地(放到一个固定的目录下，如`~/Documents/Kicad_Library`)
 2. 在设置中添加环境变量`EXT_Kicad_Library`, 值为本地库的路径，如`~/Documents/Kicad_Library`
-3. 在KiCad的设置中添加库文件路径.
-
-## 参考
-
-1. <https://github.com/zhbi98/kicad-libs>
+3. 在KiCad的设置中添加库文件.

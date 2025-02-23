@@ -1,5 +1,5 @@
 (kicad_sch
-	(version 20241209)
+	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f71290f1-8d63-410d-8ec5-b23e3c391610")
@@ -67,7 +67,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -2.54 -2.54)
+						(xy -2.54 -1.27) (xy -2.54 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -79,7 +79,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy -2.54 -1.27)
+						(xy -2.54 -1.27) (xy -2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -115,7 +115,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0)
@@ -127,7 +127,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
