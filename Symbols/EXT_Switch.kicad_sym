@@ -159,18 +159,6 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 -3.175) (xy 12.065 -3.175) (xy 11.43 -3.81) (xy 10.795 -3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
 					(xy 10.795 -3.175) (xy 11.43 -3.81)
 				)
 				(stroke
@@ -195,7 +183,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 -6.985) (xy 11.43 -6.35) (xy 12.065 -6.985) (xy 10.795 -6.985)
+					(xy 10.795 -3.175) (xy 12.065 -3.175) (xy 11.43 -3.81) (xy 10.795 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -227,6 +215,18 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 -6.985) (xy 11.43 -6.35) (xy 12.065 -6.985) (xy 10.795 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -303,7 +303,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.065 -3.175) (xy 11.43 -3.81)
+					(xy 12.065 -3.175) (xy 10.795 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -315,7 +315,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.065 -3.175) (xy 10.795 -5.08)
+					(xy 12.065 -3.175) (xy 11.43 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -339,7 +339,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -3.175) (xy 14.605 -3.175)
+					(xy 13.335 -3.175) (xy 13.97 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -351,7 +351,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -3.175) (xy 13.97 -3.81)
+					(xy 13.335 -3.175) (xy 14.605 -3.175)
 				)
 				(stroke
 					(width 0.127)
@@ -375,14 +375,14 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -6.985) (xy 13.97 -6.35) (xy 14.605 -6.985) (xy 13.335 -6.985)
+					(xy 13.335 -6.985) (xy 13.97 -6.35)
 				)
 				(stroke
-					(width 0)
+					(width 0.127)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(polyline
@@ -399,14 +399,14 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -6.985) (xy 13.97 -6.35)
+					(xy 13.335 -6.985) (xy 13.97 -6.35) (xy 14.605 -6.985) (xy 13.335 -6.985)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -459,7 +459,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 17.78 -7.62)
+					(xy 13.97 -7.62) (xy 13.97 -6.985)
 				)
 				(stroke
 					(width 0.127)
@@ -471,7 +471,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 13.97 -6.985)
+					(xy 13.97 -7.62) (xy 17.78 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -1150,6 +1150,208 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "WH160-1-104"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXT_Switch_THT:RES-TH_WH160-1-104"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "电位器 WH160-1-104"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C61836"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "电位器 WH160-1-104"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "WH160-1-104_1_0"
+			(polyline
+				(pts
+					(xy -2.286 1.27) (xy 2.794 1.27) (xy 2.794 1.27) (xy 2.794 -1.27) (xy 2.794 -1.27) (xy -2.286 -1.27)
+					(xy -2.286 -1.27) (xy -2.286 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.27) (xy -0.254 2.54) (xy -0.254 2.54) (xy 0.762 2.54) (xy 0.762 2.54) (xy 0.254 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -4.826 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -4.826 -3.81 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0.254 5.08 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.334 0 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.334 -3.81 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "热插拔机械键盘轴座"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1212,7 +1414,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -1.27 5.08)
+					(xy -2.54 5.08) (xy -6.35 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1224,7 +1426,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -6.35 5.08)
+					(xy -2.54 5.08) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
