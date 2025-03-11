@@ -1017,6 +1017,293 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "SIQ-02FVS3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXT_Switch_SMD:SW-SMD_SIQ-02FVS3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20220728/2FBC1A98A06DC86460FC69DAE20456FC.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SIQ-02FVS3"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MITSUMI(美上美)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2925423"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "拨轮滚轮旋转编码器开关"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SIQ-02FVS3_1_0"
+			(rectangle
+				(start -7.62 -2.54)
+				(end 7.62 10.16)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 7.62 0)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -12.7 2.54 0)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -7.62 90)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -2.54 -7.62 90)
+				(length 5.08)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 2.54 -7.62 90)
+				(length 5.08)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -7.62 90)
+				(length 5.08)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 7.62 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 12.7 2.54 180)
+				(length 5.08)
+				(name "EH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "SS12D06_G5"
 		(pin_names
 			(offset 0)
@@ -1506,7 +1793,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 0 0)
+			(at -2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1522,7 +1809,7 @@
 			)
 		)
 		(property "Footprint" "EXT_Switch_THT:RES-TH_WH160-1-104"
-			(at 0 0 0)
+			(at -2.794 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1549,7 +1836,7 @@
 			)
 		)
 		(property "Manufacturer Part" "电位器 WH160-1-104"
-			(at 0 0 0)
+			(at -2.794 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1558,7 +1845,7 @@
 			)
 		)
 		(property "Supplier Part" "C61836"
-			(at 0 0 0)
+			(at -2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1854,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 0 0 0)
+			(at -2.54 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1863,7 @@
 			)
 		)
 		(property "LCSC Part Name" "电位器 WH160-1-104"
-			(at 0 0 0)
+			(at -3.302 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,8 +1874,7 @@
 		(symbol "WH160-1-104_1_0"
 			(polyline
 				(pts
-					(xy -2.286 1.27) (xy 2.794 1.27) (xy 2.794 1.27) (xy 2.794 -1.27) (xy 2.794 -1.27) (xy -2.286 -1.27)
-					(xy -2.286 -1.27) (xy -2.286 1.27)
+					(xy -5.08 2.54) (xy 0 2.54) (xy 0 2.54) (xy 0 0) (xy 0 0) (xy -5.08 0) (xy -5.08 0) (xy -5.08 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1600,7 +1886,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.254 1.27) (xy -0.254 2.54) (xy -0.254 2.54) (xy 0.762 2.54) (xy 0.762 2.54) (xy 0.254 1.27)
+					(xy -2.54 2.54) (xy -3.048 3.81) (xy -3.048 3.81) (xy -2.032 3.81) (xy -2.032 3.81) (xy -2.54 2.54)
 				)
 				(stroke
 					(width 0)
@@ -1611,7 +1897,7 @@
 				)
 			)
 			(pin input line
-				(at -4.826 0 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -1628,8 +1914,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -4.826 -3.81 0)
+			(pin no_connect line
+				(at -7.62 -1.27 0)
 				(length 2.54)
 				(name "5"
 					(effects
@@ -1647,7 +1933,7 @@
 				)
 			)
 			(pin input line
-				(at 0.254 5.08 270)
+				(at -2.54 6.35 270)
 				(length 2.54)
 				(name "2"
 					(effects
@@ -1665,7 +1951,7 @@
 				)
 			)
 			(pin input line
-				(at 5.334 0 180)
+				(at 2.54 1.27 180)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -1682,8 +1968,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 5.334 -3.81 180)
+			(pin no_connect line
+				(at 2.54 -1.27 180)
 				(length 2.54)
 				(name "4"
 					(effects
