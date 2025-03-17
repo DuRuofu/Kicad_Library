@@ -1659,7 +1659,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SW"
 			(at 0 0 0)
 			(effects
 				(font
