@@ -159,18 +159,6 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 -3.175) (xy 12.065 -3.175) (xy 11.43 -3.81) (xy 10.795 -3.175)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
 					(xy 10.795 -3.175) (xy 11.43 -3.81)
 				)
 				(stroke
@@ -195,7 +183,7 @@
 			)
 			(polyline
 				(pts
-					(xy 10.795 -6.985) (xy 11.43 -6.35) (xy 12.065 -6.985) (xy 10.795 -6.985)
+					(xy 10.795 -3.175) (xy 12.065 -3.175) (xy 11.43 -3.81) (xy 10.795 -3.175)
 				)
 				(stroke
 					(width 0)
@@ -227,6 +215,18 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.795 -6.985) (xy 11.43 -6.35) (xy 12.065 -6.985) (xy 10.795 -6.985)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(polyline
@@ -303,7 +303,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.065 -3.175) (xy 11.43 -3.81)
+					(xy 12.065 -3.175) (xy 10.795 -5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -315,7 +315,7 @@
 			)
 			(polyline
 				(pts
-					(xy 12.065 -3.175) (xy 10.795 -5.08)
+					(xy 12.065 -3.175) (xy 11.43 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -339,7 +339,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -3.175) (xy 14.605 -3.175)
+					(xy 13.335 -3.175) (xy 13.97 -3.81)
 				)
 				(stroke
 					(width 0.127)
@@ -351,7 +351,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -3.175) (xy 13.97 -3.81)
+					(xy 13.335 -3.175) (xy 14.605 -3.175)
 				)
 				(stroke
 					(width 0.127)
@@ -375,14 +375,14 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -6.985) (xy 13.97 -6.35) (xy 14.605 -6.985) (xy 13.335 -6.985)
+					(xy 13.335 -6.985) (xy 13.97 -6.35)
 				)
 				(stroke
-					(width 0)
+					(width 0.127)
 					(type default)
 				)
 				(fill
-					(type outline)
+					(type none)
 				)
 			)
 			(polyline
@@ -399,14 +399,14 @@
 			)
 			(polyline
 				(pts
-					(xy 13.335 -6.985) (xy 13.97 -6.35)
+					(xy 13.335 -6.985) (xy 13.97 -6.35) (xy 14.605 -6.985) (xy 13.335 -6.985)
 				)
 				(stroke
-					(width 0.127)
+					(width 0)
 					(type default)
 				)
 				(fill
-					(type none)
+					(type outline)
 				)
 			)
 			(polyline
@@ -459,7 +459,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 17.78 -7.62)
+					(xy 13.97 -7.62) (xy 13.97 -6.985)
 				)
 				(stroke
 					(width 0.127)
@@ -471,7 +471,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 13.97 -6.985)
+					(xy 13.97 -7.62) (xy 17.78 -7.62)
 				)
 				(stroke
 					(width 0.127)
@@ -1150,6 +1150,210 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "TS24CA 250GF 013"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EXT_Switch_SMD:SW-SMD_L4.7-W3.5-P3.35-EH"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20230321/913029B0FB0CD391AF5EFD51697D8EC4.pdf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "电路结构:单刀单掷;按钮形状:矩形按钮;作用力:250gf;安装方式:卧贴;开关长度:4.55mm;开关宽度:1.8mm;开关高度:3.5mm;带支架:不带;触点电流:50mA;额定电压(AC):-;额定电压(DC):12V;额定功率:0.6W;绝缘电阻:100MΩ;带灯:无;机械寿命:3万次;"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TS24CA 250gf 013"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SHOU HAN(首韩)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C5373430"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2*4*3.5mm半包小贝贝TS-018小侧按键m165蓝牙耳机开关 250gf"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TS24CA 250GF 013_1_0"
+			(polyline
+				(pts
+					(xy -3.81 1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.524) (xy 1.27 1.524) (xy -0.508 1.524)
+					(xy -0.508 1.524) (xy -0.508 2.032) (xy -0.508 2.032) (xy -2.032 2.032) (xy -2.032 2.032) (xy -2.032 1.524)
+					(xy -2.032 1.524) (xy -3.81 1.524) (xy -3.81 1.524) (xy -3.81 1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 2.54 0)
+				(length 3.302)
+				(name "3"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 0 0)
+				(length 3.302)
+				(name "1"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 2.54 180)
+				(length 3.302)
+				(name "4"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 3.302)
+				(name "2"
+					(effects
+						(font
+							(size 0.0254 0.0254)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "热插拔机械键盘轴座"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1212,7 +1416,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -1.27 5.08)
+					(xy -2.54 5.08) (xy -6.35 5.08)
 				)
 				(stroke
 					(width 0)
@@ -1224,7 +1428,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.54 5.08) (xy -6.35 5.08)
+					(xy -2.54 5.08) (xy -1.27 5.08)
 				)
 				(stroke
 					(width 0)
